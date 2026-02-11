@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    top: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    animation: titulo 2s;
+}
+#logo {
+    width: 100px;
+}
+header {
+    display: grid;
+    border: 3px solid rgb(141, 203, 206);
+    grid-template-columns: 1fr 10fr 4fr;
+    color: white;
+}
+aside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    margin-right: 10px;
+}
+footer {
+    width: 98.3%;
+    text-align: center;
+    top: 100%;
+    bottom: 0;
+    border: 3px solid rgb(141, 203, 206);
+    padding: 10px;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+header > aside > a {
+    margin-top: 20px;
+    font-size: 15px;
+    height: 60%;
+    border-radius: 20px;
+}
+header > h1 {
+    margin-top: 30px;
+}
+header > aside > a:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(141, 203, 206);
+    transition: 1s;
+}
+#CorpoSite {
+    transition: 0.5s;
+    padding: 20px;
+    width: 70dvw;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(3, 29, 54);
+    border: 3px solid rgb(141, 203, 206);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+hr {
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#logo {
+    width: 100px;
+}
+.divConteudo {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(141, 203, 206);
+    border-radius: 20px;
+}
+.divConteudo > table,
+.divConteudo > h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+.divConteudo > h1 {
+    margin-bottom: 15px;
+}
+
+table {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+tr {
+    background-color: rgb(0, 217, 255);
+}
+th:nth-child(1) {
+    background-color: rgb(0, 254, 0);
+}
+th:nth-child(2) {
+    background-color: rgb(0, 255, 255);
+}
+th:nth-child(3) {
+    background-color: rgb(248, 244, 0);
+}
+th:nth-child(4) {
+    background-color: rgb(255, 0, 0);
+}
+footer {
+    color: white;
+    width: 98.3%;
+    text-align: center;
+    top: 100%;
+    bottom: 0;
+    border: 3px solid rgb(141, 203, 206);
+    padding: 10px;
+}
+@keyframes titulo {
+    from {
+        margin-top: -100px;
+    }
+    to {
+        margin-top: 0 auto;
+    }
+}
