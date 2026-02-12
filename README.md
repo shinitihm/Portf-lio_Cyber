@@ -3,4 +3,4 @@
 ## Felipe Augusto Cavalcanti Santos Pereira
 ## Kauã Ribeiro Sales
 ## Heitor Shiniti Miasato
-## Guilerme Guedes Montoni
+## Guilherme Guedes Montoni
