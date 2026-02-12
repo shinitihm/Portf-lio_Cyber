@@ -45,17 +45,23 @@ main p {
 footer {
     margin-top: 40px;
     padding: 10px 0px;
-    background-color: rgb(1, 10, 138);
-    height: 12.7%;
+    background-color: rgb(127, 222, 218);
+    height: 13%;
     display: block;
+    color: black;
 }
 footer h3 {
     text-align: center;
+    color: black;
 }
 footer p {
     text-align: right;
-    margin-top: 35px;
+    margin-top: 10  px;
     margin-right: 10px;
+    color: black;
+}
+footer li {
+    color: black;
 }
 ul {
     display: flex;
